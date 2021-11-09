@@ -61,7 +61,7 @@ public class AccountChartService {
     this.accountChartRepository = accountChartRepository;
   }
 
-  public Boolean installAccountChart(AccountChart act, Company company, AccountConfig accountConfig)
+  public boolean installAccountChart(AccountChart act, Company company, AccountConfig accountConfig)
       throws AxelorException {
     try {
 
