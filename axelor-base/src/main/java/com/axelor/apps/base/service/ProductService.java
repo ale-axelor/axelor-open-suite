@@ -46,7 +46,7 @@ public interface ProductService {
   /**
    * @param productVariant
    * @param applicationPriceSelect - 1 : Sale price - 2 : Cost price
-   * @return
+   * @return product extra price
    */
   public BigDecimal getProductExtraPrice(ProductVariant productVariant, int applicationPriceSelect);
 
