@@ -5,9 +5,8 @@
 #### Base
 
 * Faker API Field: 
-
-Add the possibility to use the api faker method parameters
-Add data type to filter API fields in the anonymizer lines
+- Add the possibility to use the api faker method parameters
+- Add data type to filter API fields in the anonymizer lines
 
 * Base Batch: New batch to force users password change
 * BirtTemplate: It is now possible to choose the .rptdesign file used to generate the attached file when sending a generated email. Parameters sent to the BIRT engine can also now be computed using groovy scripting.
