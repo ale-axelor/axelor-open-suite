@@ -174,7 +174,7 @@ Add justication to expense line grid view
 
 * Mobile Settings: add Helpdesk config for the mobile app
 
-#### Fixed
+### Fixed
 
 #### Sale/Purchase
 
@@ -207,7 +207,7 @@ Add justication to expense line grid view
 * Invoice term: rework partial pfp validation in invoice terms to be more user friendly and fix financial discount in second invoice term generation.
 * Journal type: field technicalTypeSelect is now compulsory.
 
-#### Removed
+### Removed
 
 * App base configuration: remove OSM Routing API selection
 
