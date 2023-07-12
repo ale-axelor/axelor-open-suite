@@ -5,23 +5,23 @@
 #### Base
 
 * Faker API Field: 
+
 Add the possibility to use the api faker method parameters
 Add data type to filter API fields in the anonymizer lines
 
 * Base Batch: New batch to force users password change
-
 * BirtTemplate: It is now possible to choose the .rptdesign file used to generate the attached file when sending a generated email. Parameters sent to the BIRT engine can also now be computed using groovy scripting.
 
 #### Accounting
 
 * Move: 
-	New mass entry feature
-	Add management of currency amount negative value for credit
-	Add PFP process like on Invoices
-Extend automatic cut off dates process to move confirmation
-On move creation or generation, originDate is filled with onChange of moveDate.
-Add an allowed tax gap on company account config and check consistency of tax values on daybooking, simulating or accounting.
-Add new technical origin for move generated from mass entry process
+    - New mass entry feature
+    - Add management of currency amount negative value for credit
+    - Add PFP process like on Invoices
+    - Extend automatic cut off dates process to move confirmation
+    - On move creation or generation, originDate is filled with onChange of moveDate.
+    - Add an allowed tax gap on company account config and check consistency of tax values on daybooking, simulating or accounting.
+    - Add new technical origin for move generated from mass entry process
 
 * Move, Move line: 
 
@@ -46,10 +46,9 @@ Cut off dates are no longer required for functional origin: closure, opening, cu
 * Deposit slip: handle bank details and deposit date in deposit slip.
 
 * Payment session: 
-
-Show buttons to select all / unselect all.
-add compensation field on partner to compensate customer invoices on supplier payment or supplier invoices on customer payment.
-add partner set field to filter partners linked to these invoice terms.
+    - Show buttons to select all / unselect all.
+    - add compensation field on partner to compensate customer invoices on supplier payment or supplier invoices on customer payment.
+    - add partner set field to filter partners linked to these invoice terms.
 
 * Analytic distribution template: trading name now has an analytic distribution template field:
 
